@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/batman2.jpg);
+    background-size:cover;
+    height: 500px;
+    background-position: center;
+    font-family: sans-serif;
+  
+
+}
+
+.loginbox{
+    width: 720px;height: 520px;background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    top: 40%;
+    left: 50%;
+    position:absolute;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    padding: 70px 30px;
+}
+
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p
+{
+padding: 0;
+/* margin-top: 20px; */
+}
+
+.loginbox input{
+width: 100%;
+margin-bottom: 20px;
+}
+
+.loginbox input[type="text"] , input[type="password"] ,input[type="number"] {
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+   
+}
+
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #eba564;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #df9739;
+    color: #000;
+}
+
+span{font-size: 15px}

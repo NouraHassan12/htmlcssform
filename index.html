@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>form validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/formstyle.css">
+</head>
+<body>
+    <div class="loginbox">
+        <h2>login here</h2>
+        <form  action="#" onsubmit="return validation()">
+            <p>User Name:</p>
+            <input type="text" name="username" placeholder="Enter User Name" id="user" autocomplete="off" required autofocus>
+            <span id="username" style="color:#df9739"></span>
+            <p>your phone number:</p>
+            <input type="text" name="yournum" placeholder="Enter your phone number" id="phnum" autocomplete="off" autofocus >
+            
+            <p>password:</p>
+            <input type="password" name="pass" placeholder="Enter password" id="pass" min="6" max="8" required autofocus>
+            <span id="password" style="color:#df9739" ></span>
+
+            <p>birth year:</p>
+            <input type="number" name="quantity" min="1990" max="2000" autofocus><br>
+                 
+
+        <input type="submit" name="" value="login" >
+
+    </form>
+
+
+
+
+
+    </div>
+
+    <script src="js/javascrr.js"></script>
+    
+</body>
+</html>
